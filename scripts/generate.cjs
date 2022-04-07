@@ -18,25 +18,16 @@ function parsePost (post) {
   const title = _.trim(commits.match(/title:(.*)/)[1]);
   const banner = _.trim(commits.match(/banner:(.*)/)[1]);
   const time = _.trim(commits.match(/time:(.*)/)[1]);
+  const lang = _.trim(commits.match(/lang:(.*)/)[1]);
   const fileName = path.basename(post, path.extname(post));
-  const langDoc = doc.match(/-+[\s\S]*?-+/mg);
-
-  const textObj = {};
-
-  for (let i of langDoc) {
-    const temp= i.split(/\r\n|\r|\n/);
-    const lang = _.trim(temp[1].match(/lang:(.*)/)[1]);
-    const text = temp.slice(2, temp.length - 1).join('\r\n');
-
-    textObj[lang] = text;
-  }
 
   return {
     file: fileName,
     title,
     banner,
     time,
-    content: textObj
+    lang,
+    content: doc 
   }
 }
 

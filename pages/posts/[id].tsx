@@ -2,22 +2,20 @@
 import { memo, useMemo } from "react";
 import { useRouter } from 'next/router';
 import ReactMarkdown from 'react-markdown';
-import content from '../../../public/content.json';
-import styles from '../../../styles/posts.module.css';
+import content from '../../public/content.json';
+import styles from '../../styles/posts.module.css';
 
 // eslint-disable-next-line react/display-name
 const Post = memo(() => {
   const router = useRouter();
   const name = router.query.id as string;
-  const lang = router.query.lang as string;
 
   const post = useMemo(() => {
-    if (!name || !lang) return undefined;
+    if (!name) return '';
 
-    const temp = content.find(i => i.file == name)?.content;
+    return content.find(i => i.file == name)?.content;
 
-    return (temp as Record<string, string>)[lang];
-  }, [name, lang]);
+  }, [name]);
 
   if (!post) return null;
 
