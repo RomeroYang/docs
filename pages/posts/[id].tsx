@@ -3,6 +3,7 @@ import { memo, useMemo } from "react";
 import { useRouter } from 'next/router';
 import ReactMarkdown from 'react-markdown';
 import content from '../../public/content.json';
+import announce from '../../public/announce.json';
 import styles from '../../styles/posts.module.css';
 
 // eslint-disable-next-line react/display-name
@@ -13,7 +14,7 @@ const Post = memo(() => {
   const post = useMemo(() => {
     if (!name) return '';
 
-    return content.find(i => i.file == name)?.content;
+    return (announce.find(i => i.file == name) || content.find(i => i.file == name))?.content;
 
   }, [name]);
 

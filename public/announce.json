@@ -1,0 +1,18 @@
+[
+  {
+    "file": "20220411_usd_en",
+    "title": "test",
+    "banner": "/public/test.png",
+    "time": "2022/04/06 12:12",
+    "lang": "en",
+    "content": "\n\n\n### Announce\nRename kUSD to aUSD.\n\nThe Karura network has been upgraded, in the latest version of Polkawallet, kUSD has automatically renamed to aUSD.\n see [here](https://acala.discourse.group/t/uniting-acala-karura-to-support-dotsama-with-ausd-together/740)"
+  },
+  {
+    "file": "20220411_usd_zh",
+    "title": "test",
+    "banner": "/banner/ecosystem.png",
+    "time": "2022/04/06 12:12",
+    "lang": "zh",
+    "content": "\n\n\n### 测试公告\n重命名 kUSD to aUSD, \n详情见 [这里](https://acala.discourse.group/t/uniting-acala-karura-to-support-dotsama-with-ausd-together/740)"
+  }
+]

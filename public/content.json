@@ -1,18 +1,18 @@
 [
   {
-    "file": "test-2",
+    "file": "20220411_test",
     "title": "test",
-    "banner": "/public/test.png",
+    "banner": "/banner/ecosystem.png",
+    "time": "2022/04/06 12:12",
+    "lang": "zh",
+    "content": "\n\n\n### 测试公告\n公告内容测试   \n白日依山尽，黄河入海流\nbanner 放在 `public/banner` 文件夹里，可以这样显示:\n\n![图片名称](/banner/ecosystem.png)"
+  },
+  {
+    "file": "20220411_test2",
+    "title": "test",
+    "banner": "/banner/ecosystem.png",
     "time": "2022/04/06 12:12",
     "lang": "en",
     "content": "\n\n\n### Announce\n Lord, what fools these mortals be!"
-  },
-  {
-    "file": "test",
-    "title": "test",
-    "banner": "/public/test.png",
-    "time": "2022/04/06 12:12",
-    "lang": "zh",
-    "content": "\n\n\n### 测试公告\n公告内容测试   \n白日依山尽，黄河入海流"
   }
 ]
