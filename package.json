@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build:posts": "node scripts/generate.cjs",
-    "build": "build:posts && next build",
+    "build": "yarn build:posts && next build",
     "start": "next start",
     "lint": "next lint"
   },
