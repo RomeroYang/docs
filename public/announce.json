@@ -2,10 +2,10 @@
   {
     "file": "20220411_usd_en",
     "title": "test",
-    "banner": "/public/test.png",
+    "banner": "/banner/ecosystem.png",
     "time": "2022/04/06 12:12",
     "lang": "en",
-    "content": "\n\n\n### Announce\nRename kUSD to aUSD.\n\nThe Karura network has been upgraded, in the latest version of Polkawallet, kUSD has automatically renamed to aUSD.\n see [here](https://acala.discourse.group/t/uniting-acala-karura-to-support-dotsama-with-ausd-together/740)"
+    "content": "\n\n\n### Karura stable coin kUSD renamed to aUSD\nDear Polkawallet users,\n\nThe Karura network has been upgraded, in the latest version of Polkawallet, kUSD has automatically renamed to aUSD.\n\nYou can still see kUSD in the old versions, please update to the latest version as soon as possible.\n\nFor details, please click [here](https://acala.discourse.group/t/uniting-acala-karura-to-support-dotsama-with-ausd-together/740)"
   },
   {
     "file": "20220411_usd_zh",
@@ -13,6 +13,6 @@
     "banner": "/banner/ecosystem.png",
     "time": "2022/04/06 12:12",
     "lang": "zh",
-    "content": "\n\n\n### 测试公告\n重命名 kUSD to aUSD, \n详情见 [这里](https://acala.discourse.group/t/uniting-acala-karura-to-support-dotsama-with-ausd-together/740)"
+    "content": "\n\n\n### Karura 稳定币 kUSD 重命名为 aUS\n亲爱的 Polkawallet 用户,\n\nKarura 网络已经升级，在最新版本的 Polkawallet 中，kUSD 已重命名为 aUSD。\n\n你仍然可以在旧版本中看到 kUSD，请尽快升级至最新版本。\n\n详情请点击 [这里](https://acala.discourse.group/t/uniting-acala-karura-to-support-dotsama-with-ausd-together/740)"
   }
 ]
