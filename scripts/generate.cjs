@@ -15,10 +15,11 @@ function parsePost (postsDir, post) {
   const parser = new RegExp(/(^-+[\s\S]*?-+)([\s\S]*$)/, 'm');
   const [, commits, doc] = content.match(parser);
 
-  const title = _.trim(commits.match(/title:(.*)/)[1]);
-  const banner = _.trim(commits.match(/banner:(.*)/)[1]);
-  const time = _.trim(commits.match(/time:(.*)/)[1]);
-  const lang = _.trim(commits.match(/lang:(.*)/)[1]);
+  const title = _.trim((commits.match(/title:(.*)/) || ['', ''])[1]);
+  const banner = _.trim((commits.match(/banner:(.*)/) || ['', ''])[1]);
+  const time = _.trim((commits.match(/time:(.*)/) || ['', ''])[1]);
+  const lang = _.trim((commits.match(/lang:(.*)/) || ['', ''])[1]);
+  const network = _.trim((commits.match(/network:(.*)/) || ['', ''])[1]);
   const fileName = path.basename(post, path.extname(post));
 
   return {
@@ -27,6 +28,7 @@ function parsePost (postsDir, post) {
     banner,
     time,
     lang,
+    network,
     content: doc 
   }
 }

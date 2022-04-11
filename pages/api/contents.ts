@@ -1,11 +1,13 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
+import reactMarkdown from 'react-markdown';
 import content from '../../public/content.json'
 
 type Data = {
   title: string;
   banner: string;
   time: string;
+  network: string;
   lang: string
 }
 
@@ -21,6 +23,7 @@ export default function handler(
     title: i.title,
     banner: i.banner,
     time: i.time,
+    network: i.network,
     lang: i.lang
   }))
 

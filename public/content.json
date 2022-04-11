@@ -5,6 +5,7 @@
     "banner": "/banner/ecosystem.png",
     "time": "2022/04/06 12:12",
     "lang": "zh",
+    "network": "karura",
     "content": "\n\n\n上面是文档的配置数据，该行及以下是文档内容\n### 测试公告\n公告内容测试   \n白日依山尽，黄河入海流\nbanner 放在 `public/banner` 文件夹里，可以这样显示:\n\n![图片名称](/banner/ecosystem.png)"
   },
   {
@@ -13,6 +14,7 @@
     "banner": "/banner/ecosystem.png",
     "time": "2022/04/06 12:12",
     "lang": "en",
+    "network": "acala",
     "content": "\n\n\n### Announce\n Lord, what fools these mortals be!"
   }
 ]

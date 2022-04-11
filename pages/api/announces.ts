@@ -1,11 +1,15 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
+import MarkdownIt from 'markdown-it'
 import announces from '../../public/announce.json'
+
+const md = new MarkdownIt()
 
 type Data = {
   title: string;
   banner: string;
   time: string;
+  network: string;
   lang: string
 }
 
@@ -21,7 +25,9 @@ export default function handler(
     title: i.title,
     banner: i.banner,
     time: i.time,
-    lang: i.lang
+    network: i.network,
+    lang: i.lang,
+    content: md.render(i.content),
   }))
 
   if (lang) {
