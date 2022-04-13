@@ -1,0 +1,90 @@
+---
+title: 基于 Acala EVM+ 开发应用，具有哪些独特优势？
+banner: https://github.com/RomeroYang/docs/blob/main/public/banner/adv%20of%20Acala%20EVM%2B1
+time: 2022/04/14 23:23
+lang: zh
+network: acala
+---
+
+
+
+
+# 基于 Acala EVM+ 开发应用，具有哪些独特优势？
+![toutu](https://github.com/MarchAlice/GOGO-MD/blob/main/md-test001/%E5%A4%B4) 
+Acala EVM+ 是兼容以太坊的智能合约平台，提供类似以太坊的开发环境，同时还具有 Substrate 的性能、速度和定制化的优势。
+
+随着 Acala 成为 Polkadot 平行链和 Acala EVM+ 上线，DApp 团队可以将其基于 EVM 的智能合约部署到 Acala EVM+ 上，同时还能使用其他在以太坊环境中使用的相同工具（MetaMask、Truffle、Waffle 等）。
+
+近日，Acala Dapp Hackathon 报名开始，为了帮助开发者进一步了解 EVM+，我们采访了 Acala CTO Bryan Chen，来了解 Acala EVM+ 的设计理念，以及它的独特优势。
+
+
+### PW：Acala EVM+ 采用的方案和波卡生态其他 EVM 兼容方案都不太一样，为什么这么设计？
+
+Bryan：Acala 一贯的开发方向都是基于 Substrate 实现的波卡平行链，为波卡生态打造一个 DeFi 技术设施平台。所以所有的设计初衷都是为了服务于波卡生态，其中包括地址格式是使用波卡的 ss58 格式，签名格式以及钱包的兼容都是适配于波卡的。这使得所有波卡用户无需使用不同的钱包来使用 Acala 的 DeFi 协议，甚至可以直接使用 DOT 作为手续费，以零门槛的方式使用 Acala。
+
+Substrate 的很多设计理念都是吸取了以太坊的教训，所以从底层上是无法在不重蹈以太坊覆辙的情况下做到 100% 兼容以太坊的。最简单的例子就是尘埃账户的处理。以太坊上有大量的尘埃账户其中的余额是不足以支付手续费的，导致这些无用账户永久性的保留在了以太坊状态之中，极大的限制了以太坊的扩展能力。如果要 100% 兼容 EVM，那么就要舍弃 Substrate 自动清理尘埃账户的能力，从长期来说，是舍本逐末的选择。
+
+Acala EVM+ 的设计是在不舍弃 Substrate 针对以太坊缺陷的修复的基础上，尽量保留最大程度 EVM 的兼容性，打造一个可持续发展的 EVM，和拥有良好扩展性的智能合约平台，在鱼和熊掌之间兼得。
+
+
+### PW：在 Acala EVM+ 上开发跟在其他兼容 EVM 合约平台上开发相比有什么优势？
+
+Bryan：作为部署在 Acala EVM+ 之中的合约，可以非常快捷的使用 Acala 所拥有的各个不同 DeFi 基础设施，包括 aUSD 稳定币、Acala Swap 等等。同时 Acala EVM+ 还会陆陆续续添加各种不同接口，比如 XCM 跨链接口和计时器调用接口等等，使得开发者可以开发出很多在以太坊上面完全不可能实现的功能。
+
+但 Acala EVM+ 最大的优势是作为一个 Substrate 链，是一个可以升级进化的平台。如果开发者有什么特殊的需求是无法通过 Solidity 合约实现的，或者 Solidity 合约实现效率不友好的函数等等，都是可以考虑通过 Substrate pallet 实现，然后暴露接口给 Solidity 合约调用。这使得 Solidity 合约开发者可以拥有更多的开发工具，不再局限于 EVM 所提供的功能。
+
+
+### PW：目前在 EVM+ 上创建和部署合约有哪些现成可利用的东西？
+
+Bryan：目前 EVM+ 可以兼容大部分主流 Solidity 开发工具，比如 Metamask、Remix、Truffle、Hardhat、Waffle 和 Blockscout 等等。
+
+
+### PW：以太坊合约如果要部署到 Acala EVM+上，需要进行哪些改动？对于熟悉以太坊的开发者来说，使用 EVM+ 时需要学习什么？
+
+Bryan：Solidity 合约基本无需改动，只是需要额外审计是否可以安全兼容 EVM+，比如 EVM+ 对尘埃账户的处理是否可能与合约设计中的预期有冲突。部署和维护脚本需要简单调整兼容 EVM+ 对 gas price 的特殊处理。除此之外就只是学习如何与 EVM+ 提供的新功能交互。
+
+
+### PW：你认为哪些场景的项目最适合基于 EVM+ 创建？
+
+Bryan：Acala 作为波卡的 DeFi Hub，最适合各种 DeFi 协议的部署，或者对 aUSD、LDOT、Acala Swap 有交互需求的合约。除此之外，Acala EVM+ 拥有定时调度器等以太坊所没有的功能，也适合开发者针对这种功能尝试创新。
+
+
+### PW：目前有哪些项目已经或准备部署在 Acala EVM+ 上？
+
+Bryan：目前已经宣发的项目有这些：
+
+   - Wormhole
+   - Kujira
+   - Rand
+   - GameDAO
+   - IndexZoo
+   - Capx
+   - theChive
+   - Chainlink
+   - OriginTrail
+
+还有更多项目还在对接之中会之后陆续宣发。
+
+
+### Acala Dapp Hackathon
+
+![heikesong](https://github.com/MarchAlice/GOGO-MD/blob/main/md-test001/%E5%B0%BE%E5%9B%BE)
+
+Acala Dapp Hackathon 由 Acala 和 PolkaWorld 联合举办，旨在促进更多团队基于 EVM+ 部署业务场景和 Dapp，大赛奖金池为价值 30 万人民币的 aUSD。目前报名已经开始，报名截止时间为 4 月 17 日。
+
+了解报名方式，请查看《[如何提交 Acala Hackathon 申请？](http://mp.weixin.qq.com/s?__biz=MzI3MzYxNzQ0Ng==&mid=2247494466&idx=1&sn=b1169a40b9fbe1f2066834d69550f616&chksm=eb222c0bdc55a51da0a12fbf107e8e3dd32298d80ea764fc13dd1f0331e7cdc6c96cf9ab1bdc&scene=21#wechat_redirect)》。
+
+关于提交标准、比赛规则、时间安排和更多信息，请查看《[Acala 黑客松报名开启，30 万奖金等你赢！](http://mp.weixin.qq.com/s?__biz=MzI3MzYxNzQ0Ng==&mid=2247494386&idx=1&sn=6682830e0171883115b23a1f600df01d&chksm=eb222dbbdc55a4ad4045b1b18d1388c5c446f55f9a8d35ab3fb905750574cb6ec639e1077a1e&scene=21#wechat_redirect)》。
+
+### 直播预告：
+
+![live](https://github.com/MarchAlice/GOGO-MD/blob/main/md-test001/%E7%9B%B4%E6%92%AD%E9%A2%84%E5%91%8A)
+
+**4 月 14 日（本周四）晚 7 点***，PolkaWorld 将在 Twitter Space 举办语音直播，主题为「与 Polkadot 建设者聊聊 Web3」，邀请到了波卡生态的 Acala、Astar、Bifrost、Zenlink、Interlay 来聊聊。
+
+参与方式：在 Twitter 关注@polkaworld_org，在活动开始时点击顶部直播提醒栏进入直播。
+
+    PolkaWorld Telegram 群：t.me/polkaworld  
+    PolkaWorld Youtube 频道：https://www.youtube.com/c/PolkaWorld  
+    PolkaWorld Twitter：@polkaworld_org  
+    PolkaWorld 网站：https://polkaworld.pro/  
