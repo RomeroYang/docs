@@ -1,6 +1,6 @@
 ---
 title: Acala Ecosystem Update — March 2022
-banner: https://github.com/RomeroYang/docs/blob/main/public/banner/ecosystem%20update.png  
+banner: /banner/ecosystem_update.png  
 time: 2022/04/13 23:23
 lang: en
 network: acala
