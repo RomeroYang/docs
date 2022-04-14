@@ -9,6 +9,8 @@ network: acala
 
 # Acala Ecosystem Update — March 2022
 ![poster](/banner/ecosystem_update.png)
+
+
 ***aUSD Ecosystem Fund launch, ACA Staking now live, Acala Ecosystem announcements: Talisman and Kujira, and Wormhole integration in March’s update***.  
 
 It’s been an exciting month for Acala. March began with the encouraging news the Acala community has bridged over 1M DOT following the on-way bridge [launch in February](https://medium.com/acalanetwork/acala-enables-dot-bridge-in-preparation-for-defi-economy-9e5a4a18f4c3). With ‘Phase 3’ of the roadmap in full effect, March has seen a significant expansion of aUSD programs and accessibility to shared liquidity and cross-chain functionality for Acala and Karura ecosystems via the recently announced Wormhole bridge integration.  
