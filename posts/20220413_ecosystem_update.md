@@ -8,8 +8,10 @@ network: acala
 
 
 # Acala Ecosystem Update — March 2022
-![poster](https://github.com/MarchAlice/GOGO-MD/blob/main/md-test001/%E5%A4%B4%E5%9B%BE.png)
-***aUSD Ecosystem Fund launch, ACA Staking now live, Acala Ecosystem announcements: Talisman and Kujira, and Wormhole integration in March’s update***.  
+![poster](/banner/ecosystem_update.png)   
+
+
+ ***aUSD Ecosystem Fund launch, ACA Staking now live, Acala Ecosystem announcements: Talisman and Kujira, and Wormhole integration in March’s update***.  
 
 It’s been an exciting month for Acala. March began with the encouraging news the Acala community has bridged over 1M DOT following the on-way bridge [launch in February](https://medium.com/acalanetwork/acala-enables-dot-bridge-in-preparation-for-defi-economy-9e5a4a18f4c3). With ‘Phase 3’ of the roadmap in full effect, March has seen a significant expansion of aUSD programs and accessibility to shared liquidity and cross-chain functionality for Acala and Karura ecosystems via the recently announced Wormhole bridge integration.  
 
@@ -68,7 +70,7 @@ Acala is planning lots of big news throughout April, so follow our social media 
 ### Build on Acala
 If you’re a team looking to build on Acala or looking for support from Acala Grants, please get in touch with our team to chat about how we can support you.
 
-![poster-end](https://github.com/MarchAlice/GOGO-MD/blob/main/md-test001/acala%E5%88%86%E5%89%B2%E7%BA%BF.png)
+![poster-end](/illustration/---acala---.png)
 ### About Acala
 
 Acala is an Ethereum-compatible smart contract platform optimized for DeFi and scaling DApps to Polkadot. The blockchain has built-in DeFi protocols for application developers to leverage, including a decentralized stablecoin (Acala Dollar — aUSD), a trustless staking derivative (liquid DOT — LDOT), and a decentralized exchange.
