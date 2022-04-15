@@ -1,4 +1,15 @@
+---
+title: Anchor Protocol and Acala Integrating to Unite Terra and Polkadot DeFi Ecosystems and Grow Decentralized Stablecoin Market
+banner: /banner/acala_anchor_1.png
+time: 2022/04/18 18:18
+lang: en
+network: acala
+---
+
+
+
 # Anchor Protocol and Acala Integrating to Unite Terra and Polkadot DeFi Ecosystems and Grow Decentralized Stablecoin Market
+
 ***Following Acala’s announced plans to join Wormhole, Acala and Anchor Protocol will work together to serve as gateways into Polkadot and Terra, bringing increased liquidity and yield opportunities for aUSD and UST***
 
 
