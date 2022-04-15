@@ -1,5 +1,7 @@
 # Anchor Protocol and Acala Integrating to Unite Terra and Polkadot DeFi Ecosystems and Grow Decentralized Stablecoin Market
 ***Following Acala’s announced plans to join Wormhole, Acala and Anchor Protocol will work together to serve as gateways into Polkadot and Terra, bringing increased liquidity and yield opportunities for aUSD and UST***
+
+
 ![acala_anchor_1](/banner/acala_anchor_1.png)
 
 Acala is working with the team at Anchor, a savings and borrowing protocol built on the Terra blockchain, to grow the decentralized stablecoin space through a variety of integrations spanning the Terra and Polkadot ecosystems. Acala and Karura, Acala’s Kusama-based parachain, will initially help expand Anchor’s collateral options for the UST stablecoin with Liquid DOT (LDOT) and Liquid KSM (LKSM), Acala’s yield-bearing liquid staking derivatives. The teams will also work together to stand up deep liquidity pools for aUSD and UST on Acala, serving as a gateway into the Polkadot ecosystem for UST users. The two teams will continue to build more integrations and deployments in the Acala and Terra ecosystems, using these initial integrations as a foundation. 
