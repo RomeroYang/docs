@@ -56,9 +56,9 @@ The roadmap for the integrations will proceed as follows:
 
 ### $250M aUSD Ecosystem Fund
 
-![acala_anchor_2](/illustration/acala_anchor_2.png)  
+![acala_anchor_2](/illustration/acala_anchor_2.png)   
 
-If you are a developer interested in building a project that drives yield or utility of the aUSD stablecoin, [apply for funding from the $250 aUSD Ecosystem Fund. ](https://acala.network/ecosystem-program)  
+If you are a developer interested in building a project that drives yield or utility of the aUSD stablecoin, [apply for funding from the $250 aUSD Ecosystem Fund. ](https://acala.network/ecosystem-program)   
 
 
 ### Build on Acala
