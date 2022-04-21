@@ -3,7 +3,7 @@ title: 重磅｜Anchor 协议将与 Acala 进行合作
 banner: /banner/acala_anchor_1.png
 time: 2022/04/18 23:23
 lang: zh
-network: acala
+network: all
 ---
 
 
