@@ -3,7 +3,7 @@ title: Acala Ecosystem Update — March 2022
 banner: /banner/ecosystem_update.png  
 time: 2022/04/13 23:23
 lang: en
-network: acala
+network: all
 ---
 
 
