@@ -31,5 +31,5 @@ export default function handler(
     data = data.filter(i => i.lang === lang);
   }
 
-  res.status(200).json(data)
+  res.status(200).json(data.reverse())
 }
