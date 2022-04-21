@@ -3,7 +3,7 @@ title: Anchor Protocol and Acala Integrating to Unite Terra and Polkadot DeFi Ec
 banner: /banner/acala_anchor_1.png
 time: 2022/04/18 23:23
 lang: en
-network: acala
+network: all
 ---
 
 
